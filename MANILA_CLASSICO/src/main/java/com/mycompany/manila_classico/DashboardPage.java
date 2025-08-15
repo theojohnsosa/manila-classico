@@ -210,7 +210,7 @@ public class DashboardPage extends javax.swing.JFrame {
         dashboardButton.setBackground(new java.awt.Color(164, 145, 129));
         dashboardButton.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         dashboardButton.setForeground(new java.awt.Color(255, 255, 255));
-        dashboardButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Joana Sosa\\OneDrive\\Desktop\\SOSA\\icons8-dashboard-100 (1).png")); // NOI18N
+        dashboardButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-dashboard-100 (1).png"))); // NOI18N
         dashboardButton.setText("Dashboard");
         dashboardButton.setBorder(null);
         dashboardButton.setBorderPainted(false);
