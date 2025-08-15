@@ -214,22 +214,32 @@ public class ProfilesPage extends javax.swing.JFrame {
         dashboardButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dashboardButton1.setFocusPainted(false);
         dashboardButton1.setFocusable(false);
+        dashboardButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                dashboardButton1ActionPerformed(evt);
+            }
+        });
 
-        dashboardButton2.setBackground(new java.awt.Color(164, 145, 129));
+        dashboardButton2.setBackground(new java.awt.Color(253, 253, 254));
         dashboardButton2.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
-        dashboardButton2.setForeground(new java.awt.Color(255, 255, 255));
-        dashboardButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Joana Sosa\\OneDrive\\Desktop\\SOSA\\icons8-scissors-alt.png")); // NOI18N
+        dashboardButton2.setForeground(new java.awt.Color(155, 164, 177));
+        dashboardButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Joana Sosa\\OneDrive\\Desktop\\SOSA\\icons8-scissors-100.png")); // NOI18N
         dashboardButton2.setText("Services");
         dashboardButton2.setBorder(null);
         dashboardButton2.setBorderPainted(false);
         dashboardButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dashboardButton2.setFocusPainted(false);
         dashboardButton2.setFocusable(false);
+        dashboardButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                dashboardButton2ActionPerformed(evt);
+            }
+        });
 
-        dashboardButton3.setBackground(new java.awt.Color(253, 253, 254));
+        dashboardButton3.setBackground(new java.awt.Color(164, 145, 129));
         dashboardButton3.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
-        dashboardButton3.setForeground(new java.awt.Color(154, 164, 177));
-        dashboardButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Joana Sosa\\OneDrive\\Desktop\\SOSA\\icons8-user-100-2.png")); // NOI18N
+        dashboardButton3.setForeground(new java.awt.Color(255, 255, 255));
+        dashboardButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-customer-100.png"))); // NOI18N
         dashboardButton3.setText("Profiles");
         dashboardButton3.setBorder(null);
         dashboardButton3.setBorderPainted(false);
@@ -422,6 +432,22 @@ public class ProfilesPage extends javax.swing.JFrame {
         dashboardPage.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_dashboardButtonActionPerformed
+
+    private void dashboardButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dashboardButton1ActionPerformed
+        ReservationPage reservationPage = new ReservationPage();
+        reservationPage.setLocationRelativeTo(null);
+        reservationPage.setResizable(false);
+        reservationPage.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_dashboardButton1ActionPerformed
+
+    private void dashboardButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dashboardButton2ActionPerformed
+        ServicesPage servicesPage = new ServicesPage();
+        servicesPage.setLocationRelativeTo(null);
+        servicesPage.setResizable(false);
+        servicesPage.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_dashboardButton2ActionPerformed
 
     /**
      * @param args the command line arguments

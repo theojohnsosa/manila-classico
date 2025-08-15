@@ -462,6 +462,9 @@
                 <Property name="focusPainted" type="boolean" value="false"/>
                 <Property name="focusable" type="boolean" value="false"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dashboardButton2ActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="dashboardButton3">
               <Properties>
@@ -488,6 +491,9 @@
                 <Property name="focusPainted" type="boolean" value="false"/>
                 <Property name="focusable" type="boolean" value="false"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dashboardButton3ActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="dashboardButton4">
               <Properties>

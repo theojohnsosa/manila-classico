@@ -436,20 +436,23 @@
                 <Property name="focusPainted" type="boolean" value="false"/>
                 <Property name="focusable" type="boolean" value="false"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dashboardButton1ActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="dashboardButton2">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="81" green="91" red="a4" type="rgb"/>
+                  <Color blue="fe" green="fd" red="fd" type="rgb"/>
                 </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI" size="13" style="1"/>
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                  <Color blue="b1" green="a4" red="9b" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\Joana Sosa\OneDrive\Desktop\SOSA\icons8-scissors-alt.png"/>
+                  <Image iconType="2" name="C:\Users\Joana Sosa\OneDrive\Desktop\SOSA\icons8-scissors-100.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Services"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -462,20 +465,23 @@
                 <Property name="focusPainted" type="boolean" value="false"/>
                 <Property name="focusable" type="boolean" value="false"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dashboardButton2ActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="dashboardButton3">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="fe" green="fd" red="fd" type="rgb"/>
+                  <Color blue="81" green="91" red="a4" type="rgb"/>
                 </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI" size="13" style="1"/>
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="b1" green="a4" red="9a" type="rgb"/>
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\Joana Sosa\OneDrive\Desktop\SOSA\icons8-user-100-2.png"/>
+                  <Image iconType="3" name="/images/icons8-customer-100.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Profiles"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">

@@ -214,6 +214,11 @@ public class ServicesPage extends javax.swing.JFrame {
         dashboardButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dashboardButton1.setFocusPainted(false);
         dashboardButton1.setFocusable(false);
+        dashboardButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                dashboardButton1ActionPerformed(evt);
+            }
+        });
 
         dashboardButton2.setBackground(new java.awt.Color(164, 145, 129));
         dashboardButton2.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
@@ -236,6 +241,11 @@ public class ServicesPage extends javax.swing.JFrame {
         dashboardButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dashboardButton3.setFocusPainted(false);
         dashboardButton3.setFocusable(false);
+        dashboardButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                dashboardButton3ActionPerformed(evt);
+            }
+        });
 
         dashboardButton4.setBackground(new java.awt.Color(253, 253, 254));
         dashboardButton4.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
@@ -422,6 +432,22 @@ public class ServicesPage extends javax.swing.JFrame {
         dashboardPage.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_dashboardButtonActionPerformed
+
+    private void dashboardButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dashboardButton1ActionPerformed
+        ReservationPage reservationPage = new ReservationPage();
+        reservationPage.setLocationRelativeTo(null);
+        reservationPage.setResizable(false);
+        reservationPage.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_dashboardButton1ActionPerformed
+
+    private void dashboardButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dashboardButton3ActionPerformed
+        ProfilesPage profilesPage = new ProfilesPage();
+        profilesPage.setLocationRelativeTo(null);
+        profilesPage.setResizable(false);
+        profilesPage.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_dashboardButton3ActionPerformed
 
     /**
      * @param args the command line arguments
