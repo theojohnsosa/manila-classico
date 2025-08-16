@@ -34,9 +34,6 @@
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
-    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-      <Dimension value="[981, 606]"/>
-    </Property>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
@@ -57,12 +54,12 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel1" alignment="0" pref="986" max="32767" attributes="0"/>
+          <Component id="jPanel1" alignment="0" pref="960" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel1" alignment="0" pref="606" max="32767" attributes="0"/>
+          <Component id="jPanel1" alignment="0" pref="609" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -638,7 +635,7 @@
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="71" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
                                   <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
@@ -845,17 +842,15 @@
                       <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Component id="jButton1" pref="194" max="32767" attributes="0"/>
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="SubjectTextField1" max="32767" attributes="0"/>
-                              <Component id="jLabel32" min="-2" pref="145" max="-2" attributes="0"/>
-                              <Component id="jLabel31" min="-2" pref="145" max="-2" attributes="0"/>
-                              <Component id="jComboBox1" max="32767" attributes="0"/>
-                              <Component id="jLabel29" min="-2" pref="145" max="-2" attributes="0"/>
-                              <Component id="jLabel28" min="-2" pref="145" max="-2" attributes="0"/>
-                              <Component id="SubjectTextField" max="32767" attributes="0"/>
-                              <Component id="jLabel27" min="-2" pref="145" max="-2" attributes="0"/>
-                              <Component id="jComboBox2" alignment="0" pref="194" max="32767" attributes="0"/>
-                          </Group>
+                          <Component id="SubjectTextField1" max="32767" attributes="0"/>
+                          <Component id="jLabel32" min="-2" pref="145" max="-2" attributes="0"/>
+                          <Component id="jLabel31" min="-2" pref="145" max="-2" attributes="0"/>
+                          <Component id="jComboBox1" max="32767" attributes="0"/>
+                          <Component id="jLabel29" min="-2" pref="145" max="-2" attributes="0"/>
+                          <Component id="jLabel28" min="-2" pref="145" max="-2" attributes="0"/>
+                          <Component id="SubjectTextField" max="32767" attributes="0"/>
+                          <Component id="jLabel27" min="-2" pref="145" max="-2" attributes="0"/>
+                          <Component id="jComboBox2" alignment="0" pref="194" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace pref="17" max="32767" attributes="0"/>
                   </Group>
