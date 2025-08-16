@@ -18,7 +18,6 @@ It allows **Admins** and **Barbers** to manage bookings, queues, sales, and cust
   - Profiles
   - Customers
   - Sales
-  - Reports
   - Support
 - 👤 **User & Role Display** with Sign Out
 - 📅 **Queue Management**:
@@ -146,7 +145,7 @@ ManilaClassico/
 This project is currently in **active development**. Future updates will include:
 - Enhanced filtering options for queues
 - Role-based authentication improvements
-- Additional reporting features
+- Additional features for service management
 
 ## 🤝 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss your ideas.
