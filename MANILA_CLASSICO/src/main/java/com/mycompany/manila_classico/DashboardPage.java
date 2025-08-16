@@ -134,7 +134,6 @@ public class DashboardPage extends javax.swing.JFrame {
         dashboardButton7.setBackground(new java.awt.Color(253, 253, 254));
         dashboardButton7.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         dashboardButton7.setForeground(new java.awt.Color(154, 164, 177));
-        dashboardButton7.setIcon(new javax.swing.ImageIcon("C:\\Users\\Joana Sosa\\OneDrive\\Desktop\\SOSA\\icons8-logout-100.png")); // NOI18N
         dashboardButton7.setText("Sign Out");
         dashboardButton7.setBorder(null);
         dashboardButton7.setBorderPainted(false);
@@ -145,8 +144,6 @@ public class DashboardPage extends javax.swing.JFrame {
         jPanel5.setBackground(new java.awt.Color(86, 76, 68));
         jPanel5.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(114, 74, 49), 1, true));
         jPanel5.setFocusable(false);
-
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Joana Sosa\\OneDrive\\Desktop\\SOSA\\Group 210.png")); // NOI18N
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
@@ -236,7 +233,7 @@ public class DashboardPage extends javax.swing.JFrame {
         dashboardButton2.setBackground(new java.awt.Color(253, 253, 254));
         dashboardButton2.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         dashboardButton2.setForeground(new java.awt.Color(154, 164, 177));
-        dashboardButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Joana Sosa\\OneDrive\\Desktop\\SOSA\\icons8-scissors-100.png")); // NOI18N
+        dashboardButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-scissors-100.png"))); // NOI18N
         dashboardButton2.setText("Services");
         dashboardButton2.setBorder(null);
         dashboardButton2.setBorderPainted(false);
@@ -252,7 +249,7 @@ public class DashboardPage extends javax.swing.JFrame {
         dashboardButton3.setBackground(new java.awt.Color(253, 253, 254));
         dashboardButton3.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         dashboardButton3.setForeground(new java.awt.Color(154, 164, 177));
-        dashboardButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Joana Sosa\\OneDrive\\Desktop\\SOSA\\icons8-user-100-2.png")); // NOI18N
+        dashboardButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-user-100-2.png"))); // NOI18N
         dashboardButton3.setText("Profiles");
         dashboardButton3.setBorder(null);
         dashboardButton3.setBorderPainted(false);
@@ -268,7 +265,7 @@ public class DashboardPage extends javax.swing.JFrame {
         dashboardButton4.setBackground(new java.awt.Color(253, 253, 254));
         dashboardButton4.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         dashboardButton4.setForeground(new java.awt.Color(154, 164, 177));
-        dashboardButton4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Joana Sosa\\OneDrive\\Desktop\\SOSA\\icons8-people-100.png")); // NOI18N
+        dashboardButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-people-100.png"))); // NOI18N
         dashboardButton4.setText("Customers");
         dashboardButton4.setBorder(null);
         dashboardButton4.setBorderPainted(false);
@@ -279,7 +276,7 @@ public class DashboardPage extends javax.swing.JFrame {
         dashboardButton5.setBackground(new java.awt.Color(253, 253, 254));
         dashboardButton5.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         dashboardButton5.setForeground(new java.awt.Color(154, 164, 177));
-        dashboardButton5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Joana Sosa\\OneDrive\\Desktop\\SOSA\\icons8-dollar-100.png")); // NOI18N
+        dashboardButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-dollar-100.png"))); // NOI18N
         dashboardButton5.setText("Sales History");
         dashboardButton5.setBorder(null);
         dashboardButton5.setBorderPainted(false);
@@ -290,7 +287,7 @@ public class DashboardPage extends javax.swing.JFrame {
         dashboardButton6.setBackground(new java.awt.Color(253, 253, 254));
         dashboardButton6.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         dashboardButton6.setForeground(new java.awt.Color(154, 164, 177));
-        dashboardButton6.setIcon(new javax.swing.ImageIcon("C:\\Users\\Joana Sosa\\OneDrive\\Desktop\\SOSA\\icons8-question-mark-100.png")); // NOI18N
+        dashboardButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-question-mark-100.png"))); // NOI18N
         dashboardButton6.setText("Support");
         dashboardButton6.setBorder(null);
         dashboardButton6.setBorderPainted(false);
@@ -357,7 +354,6 @@ public class DashboardPage extends javax.swing.JFrame {
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel10.setText("0");
 
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\Joana Sosa\\OneDrive\\Desktop\\SOSA\\icons8-calendar-100 1.png")); // NOI18N
         jLabel8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
@@ -397,7 +393,6 @@ public class DashboardPage extends javax.swing.JFrame {
         jPanel7.setBackground(new java.awt.Color(254, 243, 225));
         jPanel7.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(155, 164, 177), 1, true));
 
-        jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Users\\Joana Sosa\\OneDrive\\Desktop\\SOSA\\icons8-money-100 2.png")); // NOI18N
         jLabel11.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         jLabel12.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
@@ -441,7 +436,6 @@ public class DashboardPage extends javax.swing.JFrame {
         jPanel8.setBackground(new java.awt.Color(254, 243, 225));
         jPanel8.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(155, 164, 177), 1, true));
 
-        jLabel14.setIcon(new javax.swing.ImageIcon("C:\\Users\\Joana Sosa\\OneDrive\\Desktop\\SOSA\\icons8-clock-100 1.png")); // NOI18N
         jLabel14.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -497,7 +491,6 @@ public class DashboardPage extends javax.swing.JFrame {
         jPanel9.setBackground(new java.awt.Color(254, 243, 225));
         jPanel9.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(155, 164, 177), 1, true));
 
-        jLabel19.setIcon(new javax.swing.ImageIcon("C:\\Users\\Joana Sosa\\OneDrive\\Desktop\\SOSA\\icons8-batch-assign-100 1.png")); // NOI18N
         jLabel19.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         jLabel18.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
