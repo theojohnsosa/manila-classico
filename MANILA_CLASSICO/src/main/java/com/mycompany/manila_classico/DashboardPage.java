@@ -141,6 +141,7 @@ public class DashboardPage extends javax.swing.JFrame {
         dashboardButton7.setFocusable(false);
 
         jPanel5.setBackground(new java.awt.Color(86, 76, 68));
+        jPanel5.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(114, 74, 49), 1, true));
         jPanel5.setFocusable(false);
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
@@ -345,6 +346,7 @@ public class DashboardPage extends javax.swing.JFrame {
         jLabel7.setText("Welcome back, John Doe. Here's what's happening at Manila Classico");
 
         jPanel6.setBackground(new java.awt.Color(254, 243, 225));
+        jPanel6.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(155, 164, 177), 1, true));
 
         jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 30)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(0, 0, 0));
@@ -362,18 +364,19 @@ public class DashboardPage extends javax.swing.JFrame {
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
-                .addGap(68, 68, 68)
-                .addComponent(jLabel10)
-                .addGap(68, 68, 68))
-            .addGroup(jPanel6Layout.createSequentialGroup()
-                .addGap(28, 28, 28)
-                .addComponent(jLabel9)
-                .addGap(28, 28, 28))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel8)
                 .addGap(48, 48, 48))
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addGap(68, 68, 68)
+                        .addComponent(jLabel10))
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addGap(28, 28, 28)
+                        .addComponent(jLabel9)))
+                .addGap(29, 29, 29))
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -388,6 +391,7 @@ public class DashboardPage extends javax.swing.JFrame {
         );
 
         jPanel7.setBackground(new java.awt.Color(254, 243, 225));
+        jPanel7.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(155, 164, 177), 1, true));
 
         jLabel11.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
@@ -409,6 +413,7 @@ public class DashboardPage extends javax.swing.JFrame {
         );
 
         jPanel8.setBackground(new java.awt.Color(254, 243, 225));
+        jPanel8.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(155, 164, 177), 1, true));
 
         jLabel14.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
@@ -430,6 +435,7 @@ public class DashboardPage extends javax.swing.JFrame {
         );
 
         jPanel9.setBackground(new java.awt.Color(254, 243, 225));
+        jPanel9.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(155, 164, 177), 1, true));
 
         jLabel19.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
@@ -451,6 +457,7 @@ public class DashboardPage extends javax.swing.JFrame {
         );
 
         jPanel10.setBackground(new java.awt.Color(253, 253, 254));
+        jPanel10.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(155, 164, 177), 1, true));
 
         jLabel21.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(0, 0, 0));
@@ -468,6 +475,7 @@ public class DashboardPage extends javax.swing.JFrame {
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton2.setForeground(new java.awt.Color(0, 0, 0));
         jButton2.setText("Scheduled");
+        jButton2.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(164, 145, 129), 2, true));
         jButton2.setFocusPainted(false);
 
         jTable2.setBackground(new java.awt.Color(253, 253, 254));

@@ -93,7 +93,7 @@ public class ReservationPage extends javax.swing.JFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGap(40, 40, 40)
+                .addGap(30, 30, 30)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGap(14, 14, 14)
@@ -117,6 +117,7 @@ public class ReservationPage extends javax.swing.JFrame {
         dashboardButton7.setBackground(new java.awt.Color(253, 253, 254));
         dashboardButton7.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         dashboardButton7.setForeground(new java.awt.Color(154, 164, 177));
+        dashboardButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-logout-100.png"))); // NOI18N
         dashboardButton7.setText("Sign Out");
         dashboardButton7.setBorder(null);
         dashboardButton7.setBorderPainted(false);
