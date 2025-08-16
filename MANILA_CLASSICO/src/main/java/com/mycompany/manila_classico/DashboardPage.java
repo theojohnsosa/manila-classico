@@ -52,7 +52,6 @@ public class DashboardPage extends javax.swing.JFrame {
         jLabel10 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        jLabel22 = new javax.swing.JLabel();
         jPanel7 = new javax.swing.JPanel();
         jLabel11 = new javax.swing.JLabel();
         jPanel8 = new javax.swing.JPanel();
@@ -344,7 +343,6 @@ public class DashboardPage extends javax.swing.JFrame {
         jPanel6.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(155, 164, 177), 1, true));
 
         jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 30)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(0, 0, 0));
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel10.setText("0");
 
@@ -354,8 +352,6 @@ public class DashboardPage extends javax.swing.JFrame {
         jLabel9.setForeground(new java.awt.Color(155, 164, 177));
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel9.setText("Total Bookings");
-
-        jLabel22.setText("jLabel22");
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -371,19 +367,15 @@ public class DashboardPage extends javax.swing.JFrame {
                 .addGap(28, 28, 28))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel8))
+                .addComponent(jLabel8)
                 .addGap(48, 48, 48))
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
-                .addGap(15, 15, 15)
-                .addComponent(jLabel22)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(37, 37, 37)
                 .addComponent(jLabel8)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 28, Short.MAX_VALUE)
                 .addComponent(jLabel9)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -460,7 +452,6 @@ public class DashboardPage extends javax.swing.JFrame {
         jPanel10.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(155, 164, 177), 1, true));
 
         jLabel21.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel21.setForeground(new java.awt.Color(0, 0, 0));
         jLabel21.setText("Queue Management");
 
         jButton1.setBackground(new java.awt.Color(164, 145, 129));
@@ -473,7 +464,6 @@ public class DashboardPage extends javax.swing.JFrame {
 
         jButton2.setBackground(new java.awt.Color(253, 253, 254));
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(0, 0, 0));
         jButton2.setText("Scheduled");
         jButton2.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(164, 145, 129), 2, true));
         jButton2.setFocusPainted(false);
@@ -667,7 +657,6 @@ public class DashboardPage extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
