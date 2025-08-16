@@ -111,7 +111,7 @@ public class LoginPage extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel11.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(155, 164, 177), 2, true));
+        jPanel11.setForeground(new java.awt.Color(253, 253, 254));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 50)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
