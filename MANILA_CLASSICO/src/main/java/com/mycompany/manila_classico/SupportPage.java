@@ -347,7 +347,7 @@ public class SupportPage extends javax.swing.JFrame {
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel7.setText("Get help and find answers to your questions");
         jPanel1.add(jLabel7);
-        jLabel7.setBounds(300, 79, 278, 15);
+        jLabel7.setBounds(300, 70, 278, 15);
 
         jPanel11.setBackground(new java.awt.Color(255, 255, 255));
         jPanel11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(242, 242, 242), 2));
