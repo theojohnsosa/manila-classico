@@ -242,9 +242,10 @@ public class LoginPage extends javax.swing.JFrame {
         String adminID = "admin";
         int adminPassword = 1234;
         
-                int attemptCount = 0;
+                
+        int attemptCount = 0;
 
-        // Inside your login button action listener
+        
         if(adminTextField.getText().equals(adminID) && adminPasswordField.getText().equals(adminPassword)){
 
             DashboardPage dashboardPage = new DashboardPage();
