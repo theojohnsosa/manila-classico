@@ -23,22 +23,13 @@ public class LoginPage extends javax.swing.JFrame {
             public void keyTyped(java.awt.event.KeyEvent evt){
                 char c = evt.getKeyChar();
                 
-                if(!Character.isDigit(c) || adminPasswordField.getText().length()> 6){
+                if(!Character.isDigit(c) || adminPasswordField.getText().length()> 8){
                     evt.consume();
                 }
             }
         });
         
-        adminTextField.addKeyListener(new java.awt.event.KeyAdapter(){
-            @Override
-            public void keyTyped(java.awt.event.KeyEvent evt){
-                char c = evt.getKeyChar();
-                
-                if(!Character.isDigit(c) || adminTextField.getText().length()> 6){
-                    evt.consume();
-                }
-            }
-        });
+        
         
         
     }
@@ -242,40 +233,21 @@ public class LoginPage extends javax.swing.JFrame {
         String adminID = "admin";
         int adminPassword = 1234;
         
-                
-        int attemptCount = 0;
-
-        
         if(adminTextField.getText().equals(adminID) && adminPasswordField.getText().equals(adminPassword)){
-
             DashboardPage dashboardPage = new DashboardPage();
             dashboardPage.setLocationRelativeTo(null);
             dashboardPage.setResizable(false);
             dashboardPage.setVisible(true);
             this.dispose();
-
-        } 
-        else {
-            attemptCount++;
-
-            if(adminTextField.getText().equals(adminID) && !adminPasswordField.getText().equals(adminPassword)){
-                JOptionPane.showMessageDialog(null, "The Password is Wrong.", "Wrong Password", JOptionPane.INFORMATION_MESSAGE);
-            } else if(!adminTextField.getText().equals(adminID) && adminPasswordField.getText().equals(adminPassword)){
-                JOptionPane.showMessageDialog(null, "The AdminId is Wrong.", "Wrong AdminID", JOptionPane.INFORMATION_MESSAGE);
-            } else {
-                JOptionPane.showMessageDialog(null, "Invalid Credentials", "Invalid", JOptionPane.INFORMATION_MESSAGE);
-            }
-            
-            if(attemptCount >= 3){
-                JOptionPane.showMessageDialog(null, "Too many failed attempts. Access blocked.", "Access Denied", JOptionPane.ERROR_MESSAGE);
-                ConfirmButton.setEnabled(false); 
-            }
         }
-        
-        
-        
-        
-        
+        else if(adminTextField.getText().equals(adminID) && !adminPasswordField.getText().equals(adminPassword)){
+            JOptionPane.showMessageDialog(null,"The Password is Wrong.", "Wrong Password",JOptionPane.INFORMATION_MESSAGE);
+        }
+        else if(!adminTextField.getText().equals(adminID) && adminPasswordField.getText().equals(adminPassword)){
+            JOptionPane.showMessageDialog(null,"The AdminId is Wrong.", "Wrong AdminID",JOptionPane.INFORMATION_MESSAGE);
+        }else{
+            JOptionPane.showMessageDialog(null,"Invalid Credentials", "Invalid",JOptionPane.INFORMATION_MESSAGE);
+        }
     }//GEN-LAST:event_ConfirmButtonActionPerformed
 
     /**
