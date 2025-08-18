@@ -29,7 +29,7 @@ public class LoginPage extends javax.swing.JFrame {
             }
         });
         
-        
+         
         
         
     }
@@ -246,7 +246,7 @@ public class LoginPage extends javax.swing.JFrame {
         else if(!adminTextField.getText().equals(adminID) && adminPasswordField.getText().equals(adminPassword)){
             JOptionPane.showMessageDialog(null,"The AdminId is Wrong.", "Wrong AdminID",JOptionPane.INFORMATION_MESSAGE);
         }else{
-            JOptionPane.showMessageDialog(null,"Invalid Credentials", "Invalid",JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null,"Invalid Credentials.", "Invalid",JOptionPane.INFORMATION_MESSAGE);
         }
     }//GEN-LAST:event_ConfirmButtonActionPerformed
 
