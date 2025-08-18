@@ -116,6 +116,7 @@ public class ServicesPage extends javax.swing.JFrame {
         dashboardButton7.setBackground(new java.awt.Color(253, 253, 254));
         dashboardButton7.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         dashboardButton7.setForeground(new java.awt.Color(154, 164, 177));
+        dashboardButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-logout-100.png"))); // NOI18N
         dashboardButton7.setText("Sign Out");
         dashboardButton7.setBorder(null);
         dashboardButton7.setBorderPainted(false);
@@ -189,6 +190,7 @@ public class ServicesPage extends javax.swing.JFrame {
         dashboardButton.setBackground(new java.awt.Color(253, 253, 254));
         dashboardButton.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         dashboardButton.setForeground(new java.awt.Color(154, 164, 177));
+        dashboardButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-dashboard-alt.png"))); // NOI18N
         dashboardButton.setText("Dashboard");
         dashboardButton.setBorder(null);
         dashboardButton.setBorderPainted(false);
@@ -203,6 +205,7 @@ public class ServicesPage extends javax.swing.JFrame {
         dashboardButton1.setBackground(new java.awt.Color(253, 253, 254));
         dashboardButton1.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         dashboardButton1.setForeground(new java.awt.Color(154, 164, 177));
+        dashboardButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-calendar-100.png"))); // NOI18N
         dashboardButton1.setText("Reservation");
         dashboardButton1.setBorder(null);
         dashboardButton1.setBorderPainted(false);
@@ -218,6 +221,7 @@ public class ServicesPage extends javax.swing.JFrame {
         dashboardButton2.setBackground(new java.awt.Color(164, 145, 129));
         dashboardButton2.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         dashboardButton2.setForeground(new java.awt.Color(255, 255, 255));
+        dashboardButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-scissors-alt.png"))); // NOI18N
         dashboardButton2.setText("Services");
         dashboardButton2.setBorder(null);
         dashboardButton2.setBorderPainted(false);
@@ -228,6 +232,7 @@ public class ServicesPage extends javax.swing.JFrame {
         dashboardButton3.setBackground(new java.awt.Color(253, 253, 254));
         dashboardButton3.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         dashboardButton3.setForeground(new java.awt.Color(154, 164, 177));
+        dashboardButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-user-100-2.png"))); // NOI18N
         dashboardButton3.setText("Profiles");
         dashboardButton3.setBorder(null);
         dashboardButton3.setBorderPainted(false);
@@ -243,6 +248,7 @@ public class ServicesPage extends javax.swing.JFrame {
         dashboardButton4.setBackground(new java.awt.Color(253, 253, 254));
         dashboardButton4.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         dashboardButton4.setForeground(new java.awt.Color(154, 164, 177));
+        dashboardButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-people-100.png"))); // NOI18N
         dashboardButton4.setText("Customers");
         dashboardButton4.setBorder(null);
         dashboardButton4.setBorderPainted(false);
@@ -253,6 +259,7 @@ public class ServicesPage extends javax.swing.JFrame {
         dashboardButton5.setBackground(new java.awt.Color(253, 253, 254));
         dashboardButton5.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         dashboardButton5.setForeground(new java.awt.Color(154, 164, 177));
+        dashboardButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-dollar-100.png"))); // NOI18N
         dashboardButton5.setText("Sales History");
         dashboardButton5.setBorder(null);
         dashboardButton5.setBorderPainted(false);
@@ -263,6 +270,7 @@ public class ServicesPage extends javax.swing.JFrame {
         dashboardButton6.setBackground(new java.awt.Color(253, 253, 254));
         dashboardButton6.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         dashboardButton6.setForeground(new java.awt.Color(154, 164, 177));
+        dashboardButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-question-mark-100.png"))); // NOI18N
         dashboardButton6.setText("Support");
         dashboardButton6.setBorder(null);
         dashboardButton6.setBorderPainted(false);
@@ -362,6 +370,7 @@ public class ServicesPage extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(164, 145, 129));
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-plus-100 7.png"))); // NOI18N
         jButton1.setText("Add Service");
         jButton1.setBorder(null);
         jButton1.setBorderPainted(false);

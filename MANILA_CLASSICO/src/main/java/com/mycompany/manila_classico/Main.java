@@ -11,9 +11,9 @@ package com.mycompany.manila_classico;
 public class Main {
 
     public static void main(String[] args) {
-        DashboardPage dashboardPage = new DashboardPage();
-        dashboardPage.setLocationRelativeTo(null);
-        dashboardPage.setResizable(false);
-        dashboardPage.setVisible(true);
+        DashboardPage dashboardPageAlt = new DashboardPage();
+        dashboardPageAlt.setLocationRelativeTo(null);
+        dashboardPageAlt.setResizable(false);
+        dashboardPageAlt.setVisible(true);
     }
 }
