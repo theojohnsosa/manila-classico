@@ -663,9 +663,9 @@
                       <Table columnCount="6" rowCount="4">
                         <Column editable="true" title="Customer" type="java.lang.Object"/>
                         <Column editable="true" title="Contact" type="java.lang.Object"/>
-                        <Column editable="true" title="Barber" type="java.lang.Object"/>
                         <Column editable="true" title="Service" type="java.lang.Object"/>
-                        <Column editable="true" title="Time" type="java.lang.Object"/>
+                        <Column editable="true" title="Barber" type="java.lang.Object"/>
+                        <Column editable="true" title="Time and Date" type="java.lang.Object"/>
                         <Column editable="true" title="Status" type="java.lang.Object"/>
                       </Table>
                     </Property>

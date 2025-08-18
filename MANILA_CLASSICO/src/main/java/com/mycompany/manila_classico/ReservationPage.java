@@ -341,7 +341,7 @@ public class ReservationPage extends javax.swing.JFrame {
                 {null, null, null, null, null, null}
             },
             new String [] {
-                "Customer", "Contact", "Barber", "Service", "Time", "Status"
+                "Customer", "Contact", "Service", "Barber", "Time and Date", "Status"
             }
         ));
         jScrollPane3.setViewportView(jTable3);
