@@ -125,7 +125,7 @@ public class SignoutPage extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         JOptionPane.showMessageDialog(null, "You chose not to proceed.");
-        return; 
+        return;  
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
