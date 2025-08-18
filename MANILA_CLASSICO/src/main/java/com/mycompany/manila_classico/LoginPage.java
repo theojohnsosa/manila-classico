@@ -17,6 +17,21 @@ public class LoginPage extends javax.swing.JFrame {
      */
     public LoginPage() {
         initComponents();
+        
+        adminPasswordField.addKeyListener(new java.awt.event.KeyAdapter(){
+            @Override
+            public void keyTyped(java.awt.event.KeyEvent evt){
+                char c = evt.getKeyChar();
+                
+                if(!Character.isDigit(c) || adminPasswordField.getText().length()> 8){
+                    evt.consume();
+                }
+            }
+        });
+        
+         
+        
+        
     }
 
     /**
@@ -219,7 +234,6 @@ public class LoginPage extends javax.swing.JFrame {
         int adminPassword = 1234;
         
         if(adminTextField.getText().equals(adminID) && adminPasswordField.getText().equals(adminPassword)){
-            
             DashboardPage dashboardPage = new DashboardPage();
             dashboardPage.setLocationRelativeTo(null);
             dashboardPage.setResizable(false);
@@ -232,7 +246,7 @@ public class LoginPage extends javax.swing.JFrame {
         else if(!adminTextField.getText().equals(adminID) && adminPasswordField.getText().equals(adminPassword)){
             JOptionPane.showMessageDialog(null,"The AdminId is Wrong.", "Wrong AdminID",JOptionPane.INFORMATION_MESSAGE);
         }else{
-            JOptionPane.showMessageDialog(null,"Invalid Credentials", "Invalid",JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null,"Invalid Credentials.", "Invalid",JOptionPane.INFORMATION_MESSAGE);
         }
     }//GEN-LAST:event_ConfirmButtonActionPerformed
 
