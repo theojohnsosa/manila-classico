@@ -120,7 +120,7 @@ public class SignoutPage extends javax.swing.JFrame {
         landingPage.setLocationRelativeTo(null);
         landingPage.setResizable(false);
         landingPage.setVisible(true);
-        this.dispose();
+        this.dispose(); 
     }//GEN-LAST:event_ConfirmButtonActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
