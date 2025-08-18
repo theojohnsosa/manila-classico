@@ -331,7 +331,7 @@ public class CustomersPage extends javax.swing.JFrame {
 
         jLabel17.setFont(new java.awt.Font("SF Pro Display", 1, 20)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel17.setText("List of Staffs");
+        jLabel17.setText("List of Customers");
 
         jTable3.setBackground(new java.awt.Color(253, 253, 254));
         jTable3.setModel(new javax.swing.table.DefaultTableModel(
