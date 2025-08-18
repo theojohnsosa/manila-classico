@@ -432,7 +432,7 @@ public class ProfilesPage extends javax.swing.JFrame {
     }//GEN-LAST:event_dashboardButtonActionPerformed
 
     private void dashboardButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dashboardButton1ActionPerformed
-        ReservationPage reservationPage = new ReservationPage();
+        ReservationsPage reservationPage = new ReservationsPage();
         reservationPage.setLocationRelativeTo(null);
         reservationPage.setResizable(false);
         reservationPage.setVisible(true);

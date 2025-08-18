@@ -626,7 +626,7 @@ public class SupportPage extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void reservationButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_reservationButtonActionPerformed
-        ReservationPage reservationPage = new ReservationPage();
+        ReservationsPage reservationPage = new ReservationsPage();
         reservationPage.setLocationRelativeTo(null);
         reservationPage.setResizable(false);
         reservationPage.setVisible(true);
