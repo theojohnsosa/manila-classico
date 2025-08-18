@@ -383,7 +383,7 @@ public class ServicesPage extends javax.swing.JFrame {
         jButton10.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
         jButton10.setForeground(new java.awt.Color(255, 255, 255));
         jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-edit-100 2.png"))); // NOI18N
-        jButton10.setText("EditService");
+        jButton10.setText("Edit Service");
         jButton10.setBorder(null);
         jButton10.setFocusPainted(false);
         jButton10.setFocusable(false);

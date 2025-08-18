@@ -741,7 +741,7 @@
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/images/icons8-edit-100 2.png"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="EditService"/>
+            <Property name="text" type="java.lang.String" value="Edit Service"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="null"/>
             </Property>
