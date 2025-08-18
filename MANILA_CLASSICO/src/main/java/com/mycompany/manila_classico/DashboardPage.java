@@ -535,7 +535,7 @@ public class DashboardPage extends javax.swing.JFrame {
         );
 
         jPanel10.setBackground(new java.awt.Color(253, 253, 254));
-        jPanel10.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(155, 164, 177), 2, true));
+        jPanel10.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(155, 164, 177), 1, true));
 
         jLabel17.setFont(new java.awt.Font("SF Pro Display", 1, 20)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(0, 0, 0));

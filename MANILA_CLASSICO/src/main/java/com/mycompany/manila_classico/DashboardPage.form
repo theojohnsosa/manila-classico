@@ -959,7 +959,7 @@
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
-                <LineBorder roundedCorners="true" thickness="2">
+                <LineBorder roundedCorners="true">
                   <Color PropertyName="color" blue="b1" green="a4" red="9b" type="rgb"/>
                 </LineBorder>
               </Border>
