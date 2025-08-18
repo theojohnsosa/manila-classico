@@ -420,10 +420,9 @@ public class SupportPage extends javax.swing.JFrame {
                 .addGap(30, 30, 30)
                 .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(jPanel8, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel17, javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jPanel6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addComponent(jPanel8, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel17, javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(30, 30, 30))
         );
         jPanel10Layout.setVerticalGroup(
@@ -443,8 +442,8 @@ public class SupportPage extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(164, 145, 129));
         jButton1.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-plus-100 7.png"))); // NOI18N
-        jButton1.setText("Add Customer");
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-email-100 5.png"))); // NOI18N
+        jButton1.setText("Call Now");
         jButton1.setBorder(null);
         jButton1.setFocusPainted(false);
         jButton1.setFocusable(false);
@@ -452,8 +451,8 @@ public class SupportPage extends javax.swing.JFrame {
         jButton10.setBackground(new java.awt.Color(164, 145, 129));
         jButton10.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
         jButton10.setForeground(new java.awt.Color(255, 255, 255));
-        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-edit-100 2.png"))); // NOI18N
-        jButton10.setText("Edit Customer");
+        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-email-100 4.png"))); // NOI18N
+        jButton10.setText("Send Email");
         jButton10.setBorder(null);
         jButton10.setFocusPainted(false);
         jButton10.setFocusable(false);
@@ -492,7 +491,7 @@ public class SupportPage extends javax.swing.JFrame {
                         .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(18, 18, 18)
                 .addComponent(jPanel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGap(18, 18, 18))
+                .addGap(30, 30, 30))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
