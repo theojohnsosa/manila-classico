@@ -4,7 +4,6 @@
  */
 package com.mycompany.manila_classico;
 
-import javax.swing.JOptionPane;
 
 /**
  *
@@ -31,7 +30,7 @@ public class SignOutPage extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
+        confirmButton = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -50,13 +49,19 @@ public class SignOutPage extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(155, 164, 177));
         jLabel2.setText("You will be logged out");
 
-        jButton1.setBackground(new java.awt.Color(164, 145, 129));
-        jButton1.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("Confirm");
-        jButton1.setBorder(null);
-        jButton1.setFocusPainted(false);
-        jButton1.setFocusable(false);
+        confirmButton.setBackground(new java.awt.Color(164, 145, 129));
+        confirmButton.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
+        confirmButton.setForeground(new java.awt.Color(255, 255, 255));
+        confirmButton.setText("Confirm");
+        confirmButton.setBorder(null);
+        confirmButton.setFocusPainted(false);
+        confirmButton.setFocusable(false);
+        confirmButton.setOpaque(true);
+        confirmButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                confirmButtonActionPerformed(evt);
+            }
+        });
 
         jButton2.setBackground(new java.awt.Color(253, 253, 254));
         jButton2.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
@@ -65,6 +70,11 @@ public class SignOutPage extends javax.swing.JFrame {
         jButton2.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(164, 145, 129), 1, true));
         jButton2.setFocusPainted(false);
         jButton2.setFocusable(false);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -81,7 +91,7 @@ public class SignOutPage extends javax.swing.JFrame {
                         .addComponent(jLabel2)
                         .addGap(200, 200, 200))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(confirmButton, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(157, 157, 157))))
@@ -95,7 +105,7 @@ public class SignOutPage extends javax.swing.JFrame {
                 .addComponent(jLabel2)
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(confirmButton, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(123, 123, 123))
         );
@@ -113,6 +123,22 @@ public class SignOutPage extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        DashboardPage dashboardPageAlt = new DashboardPage();
+        dashboardPageAlt.setLocationRelativeTo(null);
+        dashboardPageAlt.setResizable(false);
+        dashboardPageAlt.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void confirmButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_confirmButtonActionPerformed
+        LandingPage landingPage = new LandingPage();
+        landingPage.setLocationRelativeTo(null);
+        landingPage.setResizable(false);
+        landingPage.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_confirmButtonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -151,7 +177,7 @@ public class SignOutPage extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton confirmButton;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;

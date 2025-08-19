@@ -18,12 +18,12 @@ public class LoginPage extends javax.swing.JFrame {
     public LoginPage() {
         initComponents();
         
-        adminPasswordField.addKeyListener(new java.awt.event.KeyAdapter(){
+        adminPasswordPasswordField.addKeyListener(new java.awt.event.KeyAdapter(){
             @Override
             public void keyTyped(java.awt.event.KeyEvent evt){
                 char c = evt.getKeyChar();
                 
-                if(!Character.isDigit(c) || adminPasswordField.getText().length()> 8){
+                if(!Character.isDigit(c) || adminPasswordPasswordField.getText().length()> 8){
                     evt.consume();
                 }
             }
@@ -54,10 +54,10 @@ public class LoginPage extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        adminTextField = new javax.swing.JTextField();
+        adminIdTextField = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
-        adminPasswordField = new javax.swing.JPasswordField();
-        ConfirmButton = new javax.swing.JButton();
+        adminPasswordPasswordField = new javax.swing.JPasswordField();
+        confirmButton = new javax.swing.JButton();
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -82,12 +82,12 @@ public class LoginPage extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(253, 253, 254));
         jPanel3.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(231, 234, 240)));
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(155, 164, 177));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Barbershop Management");
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 28)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("SF Pro Display", 1, 25)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(114, 74, 49));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Manila Classico");
@@ -97,20 +97,20 @@ public class LoginPage extends javax.swing.JFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGap(29, 29, 29)
+                .addGap(30, 30, 30)
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel2)
-                .addGap(26, 26, 26))
+                .addGap(30, 30, 30))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGap(21, 21, 21)
+                .addGap(18, 18, 18)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel2)
                     .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(15, Short.MAX_VALUE))
+                .addContainerGap(18, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -126,31 +126,47 @@ public class LoginPage extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        jPanel11.setBackground(new java.awt.Color(253, 253, 254));
+        jPanel11.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(155, 164, 177), 2, true));
         jPanel11.setForeground(new java.awt.Color(253, 253, 254));
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 50)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("SF Pro Display", 1, 50)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("LOGIN");
         jLabel3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(155, 164, 177));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("Enter your credentials to access your account");
         jLabel4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Admin ID");
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        adminIdTextField.setBackground(new java.awt.Color(253, 253, 254));
+        adminIdTextField.setFont(new java.awt.Font("SF Pro Display", 0, 14)); // NOI18N
+        adminIdTextField.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(155, 164, 177), 1, true));
+
+        jLabel6.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setText("Admin Password ");
 
-        ConfirmButton.setBackground(new java.awt.Color(164, 145, 129));
-        ConfirmButton.setForeground(new java.awt.Color(255, 255, 255));
-        ConfirmButton.setText("Confirm");
-        ConfirmButton.addActionListener(new java.awt.event.ActionListener() {
+        adminPasswordPasswordField.setBackground(new java.awt.Color(253, 253, 254));
+        adminPasswordPasswordField.setFont(new java.awt.Font("SF Pro Display", 0, 14)); // NOI18N
+        adminPasswordPasswordField.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(155, 164, 177), 1, true));
+
+        confirmButton.setBackground(new java.awt.Color(164, 145, 129));
+        confirmButton.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
+        confirmButton.setForeground(new java.awt.Color(255, 255, 255));
+        confirmButton.setText("Confirm");
+        confirmButton.setBorder(null);
+        confirmButton.setOpaque(true);
+        confirmButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ConfirmButtonActionPerformed(evt);
+                confirmButtonActionPerformed(evt);
             }
         });
 
@@ -161,38 +177,39 @@ public class LoginPage extends javax.swing.JFrame {
             .addGroup(jPanel11Layout.createSequentialGroup()
                 .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel11Layout.createSequentialGroup()
-                        .addGap(191, 191, 191)
-                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel11Layout.createSequentialGroup()
                         .addGap(89, 89, 89)
                         .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(adminTextField)
+                            .addComponent(adminIdTextField)
                             .addComponent(jLabel5)
                             .addComponent(jLabel6)
-                            .addComponent(adminPasswordField)
-                            .addComponent(ConfirmButton, javax.swing.GroupLayout.DEFAULT_SIZE, 420, Short.MAX_VALUE)))
+                            .addComponent(adminPasswordPasswordField)
+                            .addComponent(confirmButton, javax.swing.GroupLayout.DEFAULT_SIZE, 420, Short.MAX_VALUE)))
                     .addGroup(jPanel11Layout.createSequentialGroup()
-                        .addGap(148, 148, 148)
+                        .addGap(149, 149, 149)
                         .addComponent(jLabel4)))
                 .addContainerGap(84, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(192, 192, 192))
         );
         jPanel11Layout.setVerticalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel11Layout.createSequentialGroup()
                 .addGap(69, 69, 69)
                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel4)
-                .addGap(18, 18, 18)
+                .addGap(24, 24, 24)
                 .addComponent(jLabel5)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(adminTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(adminIdTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel6)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(adminPasswordField, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(adminPasswordPasswordField, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(ConfirmButton, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(confirmButton, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(33, Short.MAX_VALUE))
         );
 
@@ -229,26 +246,28 @@ public class LoginPage extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void ConfirmButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ConfirmButtonActionPerformed
+    private void confirmButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_confirmButtonActionPerformed
         String adminID = "admin";
-        int adminPassword = 1234;
-        
-        if(adminTextField.getText().equals(adminID) && adminPasswordField.getText().equals(adminPassword)){
+        String adminPassword = "1234"; // make password a String, not int
+
+        String enteredID = adminIdTextField.getText();
+        String enteredPassword = new String(adminPasswordPasswordField.getPassword()); // convert char[] to String
+
+        if (enteredID.equals(adminID) && enteredPassword.equals(adminPassword)) {
             DashboardPage dashboardPage = new DashboardPage();
             dashboardPage.setLocationRelativeTo(null);
             dashboardPage.setResizable(false);
             dashboardPage.setVisible(true);
             this.dispose();
+        } else if (enteredID.equals(adminID) && !enteredPassword.equals(adminPassword)) {
+            JOptionPane.showMessageDialog(null, "The Password is Wrong.", "Wrong Password", JOptionPane.INFORMATION_MESSAGE);
+        } else if (!enteredID.equals(adminID) && enteredPassword.equals(adminPassword)) {
+            JOptionPane.showMessageDialog(null, "The AdminId is Wrong.", "Wrong AdminID", JOptionPane.INFORMATION_MESSAGE);
+        } else {
+            JOptionPane.showMessageDialog(null, "Invalid Credentials.", "Invalid", JOptionPane.INFORMATION_MESSAGE);
         }
-        else if(adminTextField.getText().equals(adminID) && !adminPasswordField.getText().equals(adminPassword)){
-            JOptionPane.showMessageDialog(null,"The Password is Wrong.", "Wrong Password",JOptionPane.INFORMATION_MESSAGE);
-        }
-        else if(!adminTextField.getText().equals(adminID) && adminPasswordField.getText().equals(adminPassword)){
-            JOptionPane.showMessageDialog(null,"The AdminId is Wrong.", "Wrong AdminID",JOptionPane.INFORMATION_MESSAGE);
-        }else{
-            JOptionPane.showMessageDialog(null,"Invalid Credentials.", "Invalid",JOptionPane.INFORMATION_MESSAGE);
-        }
-    }//GEN-LAST:event_ConfirmButtonActionPerformed
+
+    }//GEN-LAST:event_confirmButtonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -293,9 +312,9 @@ public class LoginPage extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton ConfirmButton;
-    private javax.swing.JPasswordField adminPasswordField;
-    private javax.swing.JTextField adminTextField;
+    private javax.swing.JTextField adminIdTextField;
+    private javax.swing.JPasswordField adminPasswordPasswordField;
+    private javax.swing.JButton confirmButton;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

@@ -36,7 +36,7 @@ public class ServicesPage extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
-        jButton9 = new javax.swing.JButton();
+        signOutButton = new javax.swing.JButton();
         jPanel5 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -137,20 +137,20 @@ public class ServicesPage extends javax.swing.JFrame {
         jPanel4.setBackground(new java.awt.Color(253, 253, 254));
         jPanel4.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 0, 0, 0, new java.awt.Color(155, 164, 177)));
 
-        jButton9.setBackground(new java.awt.Color(253, 253, 254));
-        jButton9.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
-        jButton9.setForeground(new java.awt.Color(155, 164, 177));
-        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-logout-100.png"))); // NOI18N
-        jButton9.setText("Sign Out");
-        jButton9.setBorder(null);
-        jButton9.setBorderPainted(false);
-        jButton9.setFocusPainted(false);
-        jButton9.setFocusable(false);
+        signOutButton.setBackground(new java.awt.Color(253, 253, 254));
+        signOutButton.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
+        signOutButton.setForeground(new java.awt.Color(155, 164, 177));
+        signOutButton.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-logout-100.png")); // NOI18N
+        signOutButton.setText("Sign Out");
+        signOutButton.setBorder(null);
+        signOutButton.setBorderPainted(false);
+        signOutButton.setFocusPainted(false);
+        signOutButton.setFocusable(false);
 
         jPanel5.setBackground(new java.awt.Color(86, 76, 68));
 
         jLabel3.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/user-icon.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/user-icon.png")); // NOI18N
 
         jLabel4.setFont(new java.awt.Font("SF Pro Display", 1, 16)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
@@ -194,7 +194,7 @@ public class ServicesPage extends javax.swing.JFrame {
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton9, javax.swing.GroupLayout.DEFAULT_SIZE, 287, Short.MAX_VALUE)
+                    .addComponent(signOutButton, javax.swing.GroupLayout.DEFAULT_SIZE, 287, Short.MAX_VALUE)
                     .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -204,14 +204,14 @@ public class ServicesPage extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(signOutButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
 
         dashboardButton.setBackground(new java.awt.Color(253, 253, 254));
         dashboardButton.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
         dashboardButton.setForeground(new java.awt.Color(155, 164, 177));
-        dashboardButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-dashboard-alt.png"))); // NOI18N
+        dashboardButton.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-dashboard-alt.png")); // NOI18N
         dashboardButton.setText("Dashboard");
         dashboardButton.setBorder(null);
         dashboardButton.setBorderPainted(false);
@@ -226,7 +226,7 @@ public class ServicesPage extends javax.swing.JFrame {
         reservationsButton.setBackground(new java.awt.Color(253, 253, 254));
         reservationsButton.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
         reservationsButton.setForeground(new java.awt.Color(155, 164, 177));
-        reservationsButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-calendar-100.png"))); // NOI18N
+        reservationsButton.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-calendar-100.png")); // NOI18N
         reservationsButton.setText("Reservations");
         reservationsButton.setBorder(null);
         reservationsButton.setBorderPainted(false);
@@ -241,12 +241,13 @@ public class ServicesPage extends javax.swing.JFrame {
         servicesButtons.setBackground(new java.awt.Color(164, 145, 129));
         servicesButtons.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
         servicesButtons.setForeground(new java.awt.Color(255, 255, 255));
-        servicesButtons.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-scissors-alt.png"))); // NOI18N
+        servicesButtons.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-scissors-alt.png")); // NOI18N
         servicesButtons.setText("Services");
         servicesButtons.setBorder(null);
         servicesButtons.setBorderPainted(false);
         servicesButtons.setFocusPainted(false);
         servicesButtons.setFocusable(false);
+        servicesButtons.setOpaque(true);
         servicesButtons.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 servicesButtonsActionPerformed(evt);
@@ -256,7 +257,7 @@ public class ServicesPage extends javax.swing.JFrame {
         profilesButton.setBackground(new java.awt.Color(253, 253, 254));
         profilesButton.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
         profilesButton.setForeground(new java.awt.Color(155, 164, 177));
-        profilesButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-user-100-2.png"))); // NOI18N
+        profilesButton.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-user-100-2.png")); // NOI18N
         profilesButton.setText("Profiles");
         profilesButton.setBorder(null);
         profilesButton.setBorderPainted(false);
@@ -271,7 +272,7 @@ public class ServicesPage extends javax.swing.JFrame {
         customersButton.setBackground(new java.awt.Color(253, 253, 254));
         customersButton.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
         customersButton.setForeground(new java.awt.Color(155, 164, 177));
-        customersButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-people-100.png"))); // NOI18N
+        customersButton.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-people-100.png")); // NOI18N
         customersButton.setText("Customers");
         customersButton.setBorder(null);
         customersButton.setBorderPainted(false);
@@ -286,7 +287,7 @@ public class ServicesPage extends javax.swing.JFrame {
         salesHistoryButton.setBackground(new java.awt.Color(253, 253, 254));
         salesHistoryButton.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
         salesHistoryButton.setForeground(new java.awt.Color(155, 164, 177));
-        salesHistoryButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-dollar-100.png"))); // NOI18N
+        salesHistoryButton.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-dollar-100.png")); // NOI18N
         salesHistoryButton.setText("Sales History");
         salesHistoryButton.setBorder(null);
         salesHistoryButton.setBorderPainted(false);
@@ -301,7 +302,7 @@ public class ServicesPage extends javax.swing.JFrame {
         supportButton.setBackground(new java.awt.Color(253, 253, 254));
         supportButton.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
         supportButton.setForeground(new java.awt.Color(155, 164, 177));
-        supportButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-question-mark-100.png"))); // NOI18N
+        supportButton.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-question-mark-100.png")); // NOI18N
         supportButton.setText("Support");
         supportButton.setBorder(null);
         supportButton.setBorderPainted(false);
@@ -408,20 +409,22 @@ public class ServicesPage extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(164, 145, 129));
         jButton1.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-plus-100 7.png"))); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-plus-100 7.png")); // NOI18N
         jButton1.setText("Add Service");
         jButton1.setBorder(null);
         jButton1.setFocusPainted(false);
         jButton1.setFocusable(false);
+        jButton1.setOpaque(true);
 
         jButton10.setBackground(new java.awt.Color(164, 145, 129));
         jButton10.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
         jButton10.setForeground(new java.awt.Color(255, 255, 255));
-        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-edit-100 2.png"))); // NOI18N
+        jButton10.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-edit-100 2.png")); // NOI18N
         jButton10.setText("Edit Service");
         jButton10.setBorder(null);
         jButton10.setFocusPainted(false);
         jButton10.setFocusable(false);
+        jButton10.setOpaque(true);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -479,6 +482,7 @@ public class ServicesPage extends javax.swing.JFrame {
         dashboardPageAlt.setLocationRelativeTo(null);
         dashboardPageAlt.setResizable(false);
         dashboardPageAlt.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_dashboardButtonActionPerformed
 
     private void reservationsButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_reservationsButtonActionPerformed
@@ -486,6 +490,7 @@ public class ServicesPage extends javax.swing.JFrame {
         reservationsPage.setLocationRelativeTo(null);
         reservationsPage.setResizable(false);
         reservationsPage.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_reservationsButtonActionPerformed
 
     private void servicesButtonsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_servicesButtonsActionPerformed
@@ -493,6 +498,7 @@ public class ServicesPage extends javax.swing.JFrame {
         servicesPage.setLocationRelativeTo(null);
         servicesPage.setResizable(false);
         servicesPage.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_servicesButtonsActionPerformed
 
     private void profilesButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_profilesButtonActionPerformed
@@ -500,6 +506,7 @@ public class ServicesPage extends javax.swing.JFrame {
         profilesPage.setLocationRelativeTo(null);
         profilesPage.setResizable(false);
         profilesPage.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_profilesButtonActionPerformed
 
     private void customersButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_customersButtonActionPerformed
@@ -507,6 +514,7 @@ public class ServicesPage extends javax.swing.JFrame {
         customersPage.setLocationRelativeTo(null);
         customersPage.setResizable(false);
         customersPage.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_customersButtonActionPerformed
 
     private void salesHistoryButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_salesHistoryButtonActionPerformed
@@ -514,6 +522,7 @@ public class ServicesPage extends javax.swing.JFrame {
         salesHistoryPage.setLocationRelativeTo(null);
         salesHistoryPage.setResizable(false);
         salesHistoryPage.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_salesHistoryButtonActionPerformed
 
     private void supportButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_supportButtonActionPerformed
@@ -521,6 +530,7 @@ public class ServicesPage extends javax.swing.JFrame {
         supportPage.setLocationRelativeTo(null);
         supportPage.setResizable(false);
         supportPage.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_supportButtonActionPerformed
 
     /**
@@ -1074,7 +1084,6 @@ public class ServicesPage extends javax.swing.JFrame {
     private javax.swing.JButton dashboardButton;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel2;
@@ -1099,6 +1108,7 @@ public class ServicesPage extends javax.swing.JFrame {
     private javax.swing.JButton reservationsButton;
     private javax.swing.JButton salesHistoryButton;
     private javax.swing.JButton servicesButtons;
+    private javax.swing.JButton signOutButton;
     private javax.swing.JButton supportButton;
     // End of variables declaration//GEN-END:variables
 }

@@ -4,6 +4,8 @@
  */
 package com.mycompany.manila_classico;
 
+import java.awt.Color;
+
 /**
  *
  * @author Joana Sosa
@@ -156,17 +158,22 @@ public class DashboardPage extends javax.swing.JFrame {
         signOutButton.setBackground(new java.awt.Color(253, 253, 254));
         signOutButton.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
         signOutButton.setForeground(new java.awt.Color(155, 164, 177));
-        signOutButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-logout-100.png"))); // NOI18N
+        signOutButton.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-logout-100.png")); // NOI18N
         signOutButton.setText("Sign Out");
         signOutButton.setBorder(null);
         signOutButton.setBorderPainted(false);
         signOutButton.setFocusPainted(false);
         signOutButton.setFocusable(false);
+        signOutButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                signOutButtonActionPerformed(evt);
+            }
+        });
 
         jPanel5.setBackground(new java.awt.Color(86, 76, 68));
 
         jLabel3.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/user-icon.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/user-icon.png")); // NOI18N
 
         jLabel4.setFont(new java.awt.Font("SF Pro Display", 1, 16)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
@@ -227,12 +234,12 @@ public class DashboardPage extends javax.swing.JFrame {
         dashboardButton.setBackground(new java.awt.Color(164, 145, 129));
         dashboardButton.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
         dashboardButton.setForeground(new java.awt.Color(255, 255, 255));
-        dashboardButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-dashboard-100 (1).png"))); // NOI18N
+        dashboardButton.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-dashboard-100 (1).png")); // NOI18N
         dashboardButton.setText("Dashboard");
         dashboardButton.setBorder(null);
         dashboardButton.setBorderPainted(false);
         dashboardButton.setFocusPainted(false);
-        dashboardButton.setFocusable(false);
+        dashboardButton.setOpaque(true);
         dashboardButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 dashboardButtonActionPerformed(evt);
@@ -242,7 +249,7 @@ public class DashboardPage extends javax.swing.JFrame {
         reservationsButton.setBackground(new java.awt.Color(253, 253, 254));
         reservationsButton.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
         reservationsButton.setForeground(new java.awt.Color(155, 164, 177));
-        reservationsButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-calendar-100.png"))); // NOI18N
+        reservationsButton.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-calendar-100 (1).png")); // NOI18N
         reservationsButton.setText("Reservations");
         reservationsButton.setBorder(null);
         reservationsButton.setBorderPainted(false);
@@ -257,7 +264,7 @@ public class DashboardPage extends javax.swing.JFrame {
         servicesButton.setBackground(new java.awt.Color(253, 253, 254));
         servicesButton.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
         servicesButton.setForeground(new java.awt.Color(155, 164, 177));
-        servicesButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-scissors-100.png"))); // NOI18N
+        servicesButton.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-scissors-100.png")); // NOI18N
         servicesButton.setText("Services");
         servicesButton.setBorder(null);
         servicesButton.setBorderPainted(false);
@@ -272,7 +279,7 @@ public class DashboardPage extends javax.swing.JFrame {
         profilesButton.setBackground(new java.awt.Color(253, 253, 254));
         profilesButton.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
         profilesButton.setForeground(new java.awt.Color(155, 164, 177));
-        profilesButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-user-100-2.png"))); // NOI18N
+        profilesButton.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-user-100-2.png")); // NOI18N
         profilesButton.setText("Profiles");
         profilesButton.setBorder(null);
         profilesButton.setBorderPainted(false);
@@ -287,7 +294,7 @@ public class DashboardPage extends javax.swing.JFrame {
         customersButton.setBackground(new java.awt.Color(253, 253, 254));
         customersButton.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
         customersButton.setForeground(new java.awt.Color(155, 164, 177));
-        customersButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-people-100.png"))); // NOI18N
+        customersButton.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-people-100.png")); // NOI18N
         customersButton.setText("Customers");
         customersButton.setBorder(null);
         customersButton.setBorderPainted(false);
@@ -302,7 +309,7 @@ public class DashboardPage extends javax.swing.JFrame {
         salesHistoryButton.setBackground(new java.awt.Color(253, 253, 254));
         salesHistoryButton.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
         salesHistoryButton.setForeground(new java.awt.Color(155, 164, 177));
-        salesHistoryButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-dollar-100.png"))); // NOI18N
+        salesHistoryButton.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-dollar-100.png")); // NOI18N
         salesHistoryButton.setText("Sales History");
         salesHistoryButton.setBorder(null);
         salesHistoryButton.setBorderPainted(false);
@@ -317,7 +324,7 @@ public class DashboardPage extends javax.swing.JFrame {
         supportButton.setBackground(new java.awt.Color(253, 253, 254));
         supportButton.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
         supportButton.setForeground(new java.awt.Color(155, 164, 177));
-        supportButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-question-mark-100.png"))); // NOI18N
+        supportButton.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-question-mark-100.png")); // NOI18N
         supportButton.setText("Support");
         supportButton.setBorder(null);
         supportButton.setBorderPainted(false);
@@ -394,7 +401,7 @@ public class DashboardPage extends javax.swing.JFrame {
         jLabel9.setText("0");
         jLabel9.setFocusable(false);
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-calendar-100 1.png"))); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-calendar-100 1.png")); // NOI18N
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -443,7 +450,7 @@ public class DashboardPage extends javax.swing.JFrame {
         jLabel21.setText("0");
         jLabel21.setFocusable(false);
 
-        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-money-100 2.png"))); // NOI18N
+        jLabel22.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-money-100 2.png")); // NOI18N
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
@@ -490,7 +497,7 @@ public class DashboardPage extends javax.swing.JFrame {
         jLabel15.setText("0");
         jLabel15.setFocusable(false);
 
-        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-clock-100 1.png"))); // NOI18N
+        jLabel16.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-clock-100 1.png")); // NOI18N
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -538,7 +545,7 @@ public class DashboardPage extends javax.swing.JFrame {
         jLabel12.setText("0");
         jLabel12.setFocusable(false);
 
-        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-batch-assign-100 1.png"))); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon("/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-batch-assign-100 1.png")); // NOI18N
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
@@ -581,6 +588,7 @@ public class DashboardPage extends javax.swing.JFrame {
         liveQueueButton.setForeground(new java.awt.Color(255, 255, 255));
         liveQueueButton.setText("Live Queue");
         liveQueueButton.setBorder(null);
+        liveQueueButton.setOpaque(true);
 
         scheduledButton.setBackground(new java.awt.Color(253, 253, 254));
         scheduledButton.setFont(new java.awt.Font("SF Pro Display", 1, 14)); // NOI18N
@@ -691,20 +699,23 @@ public class DashboardPage extends javax.swing.JFrame {
         dashboardPageAlt.setLocationRelativeTo(null);
         dashboardPageAlt.setResizable(false);
         dashboardPageAlt.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_dashboardButtonActionPerformed
 
     private void reservationsButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_reservationsButtonActionPerformed
         ReservationsPage reservationsPage = new ReservationsPage();
         reservationsPage.setLocationRelativeTo(null);
         reservationsPage.setResizable(false);
-        reservationsPage.setVisible(true);        
+        reservationsPage.setVisible(true);   
+        this.dispose();
     }//GEN-LAST:event_reservationsButtonActionPerformed
 
     private void servicesButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_servicesButtonActionPerformed
         ServicesPage servicesPage = new ServicesPage();
         servicesPage.setLocationRelativeTo(null);
         servicesPage.setResizable(false);
-        servicesPage.setVisible(true);    
+        servicesPage.setVisible(true);  
+        this.dispose();
     }//GEN-LAST:event_servicesButtonActionPerformed
 
     private void profilesButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_profilesButtonActionPerformed
@@ -712,6 +723,7 @@ public class DashboardPage extends javax.swing.JFrame {
         profilesPage.setLocationRelativeTo(null);
         profilesPage.setResizable(false);
         profilesPage.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_profilesButtonActionPerformed
 
     private void customersButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_customersButtonActionPerformed
@@ -719,6 +731,7 @@ public class DashboardPage extends javax.swing.JFrame {
         customersPage.setLocationRelativeTo(null);
         customersPage.setResizable(false);
         customersPage.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_customersButtonActionPerformed
 
     private void salesHistoryButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_salesHistoryButtonActionPerformed
@@ -726,6 +739,7 @@ public class DashboardPage extends javax.swing.JFrame {
         salesHistoryPage.setLocationRelativeTo(null);
         salesHistoryPage.setResizable(false);
         salesHistoryPage.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_salesHistoryButtonActionPerformed
 
     private void supportButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_supportButtonActionPerformed
@@ -733,7 +747,16 @@ public class DashboardPage extends javax.swing.JFrame {
         supportPage.setLocationRelativeTo(null);
         supportPage.setResizable(false);
         supportPage.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_supportButtonActionPerformed
+
+    private void signOutButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_signOutButtonActionPerformed
+        SignOutPage signOutPage = new SignOutPage();
+        signOutPage.setLocationRelativeTo(null);
+        signOutPage.setResizable(false);
+        signOutPage.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_signOutButtonActionPerformed
 
     /**
      * @param args the command line arguments

@@ -294,7 +294,7 @@
                       <Group type="102" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jButton9" pref="287" max="32767" attributes="0"/>
+                              <Component id="signOutButton" pref="287" max="32767" attributes="0"/>
                               <Component id="jPanel5" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
@@ -307,14 +307,14 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jButton9" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="signOutButton" min="-2" pref="50" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JButton" name="jButton9">
+                <Component class="javax.swing.JButton" name="signOutButton">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="fe" green="fd" red="fd" type="rgb"/>
@@ -326,7 +326,7 @@
                       <Color blue="b1" green="a4" red="9b" type="rgb"/>
                     </Property>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/images/icons8-logout-100.png"/>
+                      <Image iconType="2" name="/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-logout-100.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Sign Out"/>
                     <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -336,6 +336,9 @@
                     <Property name="focusPainted" type="boolean" value="false"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="signOutButtonActionPerformed"/>
+                  </Events>
                 </Component>
                 <Container class="javax.swing.JPanel" name="jPanel5">
                   <Properties>
@@ -383,7 +386,7 @@
                           <Font name="SF Pro Display" size="14" style="1"/>
                         </Property>
                         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                          <Image iconType="3" name="/images/user-icon.png"/>
+                          <Image iconType="2" name="/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/user-icon.png"/>
                         </Property>
                       </Properties>
                     </Component>
@@ -425,7 +428,7 @@
                   <Color blue="b1" green="a4" red="9b" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/icons8-dashboard-alt.png"/>
+                  <Image iconType="2" name="/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-dashboard-alt.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Dashboard"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -434,6 +437,7 @@
                 <Property name="borderPainted" type="boolean" value="false"/>
                 <Property name="focusPainted" type="boolean" value="false"/>
                 <Property name="focusable" type="boolean" value="false"/>
+                <Property name="opaque" type="boolean" value="true"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dashboardButtonActionPerformed"/>
@@ -451,7 +455,7 @@
                   <Color blue="b1" green="a4" red="9b" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/icons8-calendar-100.png"/>
+                  <Image iconType="2" name="/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-calendar-100.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Reservations"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -477,7 +481,7 @@
                   <Color blue="b1" green="a4" red="9b" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/icons8-scissors-100.png"/>
+                  <Image iconType="2" name="/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-scissors-100.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Services"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -503,7 +507,7 @@
                   <Color blue="b1" green="a4" red="9b" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/icons8-user-100-2.png"/>
+                  <Image iconType="2" name="/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-user-100-2.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Profiles"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -529,7 +533,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/icons8-people-100 (1).png"/>
+                  <Image iconType="2" name="/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-people-100 (1).png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Customers"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -538,6 +542,7 @@
                 <Property name="borderPainted" type="boolean" value="false"/>
                 <Property name="focusPainted" type="boolean" value="false"/>
                 <Property name="focusable" type="boolean" value="false"/>
+                <Property name="opaque" type="boolean" value="true"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="customersButtonActionPerformed"/>
@@ -555,7 +560,7 @@
                   <Color blue="b1" green="a4" red="9b" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/icons8-dollar-100.png"/>
+                  <Image iconType="2" name="/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-dollar-100.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Sales History"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -581,7 +586,7 @@
                   <Color blue="b1" green="a4" red="9b" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/icons8-question-mark-100.png"/>
+                  <Image iconType="2" name="/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-question-mark-100.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Support"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -744,7 +749,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/images/icons8-plus-100 7.png"/>
+              <Image iconType="2" name="/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-plus-100 7.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Add Customer"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -752,6 +757,7 @@
             </Property>
             <Property name="focusPainted" type="boolean" value="false"/>
             <Property name="focusable" type="boolean" value="false"/>
+            <Property name="opaque" type="boolean" value="true"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="jButton10">
@@ -766,7 +772,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/images/icons8-edit-100 2.png"/>
+              <Image iconType="2" name="/Users/theojohnsosa/NetBeansProjects/ManilaClassico/manila-classico/MANILA_CLASSICO/src/main/java/images/icons8-edit-100 2.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Edit Customer"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -774,6 +780,7 @@
             </Property>
             <Property name="focusPainted" type="boolean" value="false"/>
             <Property name="focusable" type="boolean" value="false"/>
+            <Property name="opaque" type="boolean" value="true"/>
           </Properties>
         </Component>
       </SubComponents>
